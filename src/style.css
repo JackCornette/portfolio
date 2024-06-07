@@ -216,6 +216,13 @@ button:focus {
   display: inline-block;
 }
 
+.large-gif {
+  border: 5px solid #c770f0; /* Add border */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visual effect */
+}
+
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);

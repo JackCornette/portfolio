@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Developed by Soumyajit Behera, Modified by Jack Cornette</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
@@ -30,7 +30,7 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li>
+            {/* </li>
             <li className="social-icons">
               <a
                 href="https://twitter.com/Soumyajit4419"
@@ -39,7 +39,7 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
-              </a>
+              </a>*/}
             </li>
             <li className="social-icons">
               <a

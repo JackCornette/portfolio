@@ -4,8 +4,10 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about.gif";
+import newImg from "../../Assets/awardpic.jpg";
 import Toolstack from "./Toolstack";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
@@ -22,17 +24,24 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About <strong className="purple">ME</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
+
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Tilt>
+              <Container className="large-gif" alt="avatar" style = {{padding: 0}}>
+              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img src={newImg} alt="new" className="img-fluid" />
+              </Container>
+            </Tilt>
           </Col>
+
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
@@ -40,10 +49,10 @@ function About() {
 
         <Techstack />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
 
         <Github />
       </Container>

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e31290b9.css",
+    "main.js": "/portfolio/static/js/main.f70af69f.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home.gif": "/portfolio/static/media/home.628584693f710c9f3e11.gif",
+    "static/media/about.gif": "/portfolio/static/media/about.b3d9f3a26b28ccdb83e1.gif",
+    "static/media/selfie.JPG": "/portfolio/static/media/selfie.8a7e7ee55466642d2cad.JPG",
+    "static/media/leaf.png": "/portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/resume_06_2024.pdf": "/portfolio/static/media/resume_06_2024.fc089d3693cccd479a53.pdf",
+    "static/media/awardpic.jpg": "/portfolio/static/media/awardpic.42ea08b13d4f27dd6d2a.jpg",
+    "static/media/codeEditor.png": "/portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/chatify.png": "/portfolio/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio/index.html",
+    "main.e31290b9.css.map": "/portfolio/static/css/main.e31290b9.css.map",
+    "main.f70af69f.js.map": "/portfolio/static/js/main.f70af69f.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e31290b9.css",
+    "static/js/main.f70af69f.js"
+  ]
+}

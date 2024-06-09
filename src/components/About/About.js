@@ -40,7 +40,8 @@ function About() {
                 src={aboutGIF}
                 allow="autoplay" 
                 style={{ width: '100%', height: '200px' }} 
-                alt="A cool GIF">
+                alt="A cool GIF"
+                title="A cool GIF">
               </iframe>
               <img src={newImg} alt="new" className="img-fluid" />
               </Container>

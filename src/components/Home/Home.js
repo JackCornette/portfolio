@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import homeLogo from "../../Assets/home.gif"; // Ensure this path is correct
+import homeLogo from "../../Assets/home.gif"; // Ensure this path is correct
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -32,7 +32,7 @@ function Home() {
             </Col>
 
             <Col md={7} style={{ paddingBottom: 5 }}>
-            <iframe src={homeGIF} allow="autoplay" className="img-fluid large-gif" style={{ width: '100%', height: '372px' }}></iframe>
+            <img src={homeLogo} allow="autoplay" title="A cool GIF" className="img-fluid large-gif"></img>
             </Col>
           </Row>
         </Container>

@@ -4,11 +4,13 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.gif";
+// import laptopImg from "../../Assets/about.gif";
 import newImg from "../../Assets/awardpic.jpg";
 import Tilt from "react-parallax-tilt";
 
 function About() {
+  const aboutGIF = "https://drive.google.com/file/d/1rB_h-4z08dbJBtAmFvhTn9jkK8_jS1e5/preview" 
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -28,19 +30,22 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <Tilt>
               <Container className="large-gif" alt="avatar" style = {{padding: 0}}>
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <iframe  
+                src={aboutGIF}
+                allow="autoplay" 
+                style={{ width: '100%', height: '200px' }} 
+                alt="A cool GIF">
+              </iframe>
               <img src={newImg} alt="new" className="img-fluid" />
               </Container>
             </Tilt>
           </Col>
-
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>

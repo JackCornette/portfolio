@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home.gif"; // Ensure this path is correct
+// import homeLogo from "../../Assets/home.gif"; // Ensure this path is correct
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
+  const homeGIF = "https://drive.google.com/file/d/1nA0LB6dV9UCA368DwFCHolQkxrWJIvG7/preview"
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -31,12 +32,7 @@ function Home() {
             </Col>
 
             <Col md={7} style={{ paddingBottom: 5 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid large-gif"
-                style={{ width: "100%", height: "auto", maxHeight: "1200px" }}
-              />
+            <iframe src={homeGIF} allow="autoplay" className="img-fluid large-gif" style={{ width: '100%', height: '372px' }}></iframe>
             </Col>
           </Row>
         </Container>

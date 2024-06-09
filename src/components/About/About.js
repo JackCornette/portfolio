@@ -6,7 +6,6 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.gif";
 import newImg from "../../Assets/awardpic.jpg";
-import Toolstack from "./Toolstack";
 import Tilt from "react-parallax-tilt";
 
 function About() {

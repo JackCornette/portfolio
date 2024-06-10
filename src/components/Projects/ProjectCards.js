@@ -1,15 +1,24 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+// import React from "react";
+// import Card from "react-bootstrap/Card";
+// import Button from "react-bootstrap/Button";
+// import { CgWebsite } from "react-icons/cg";
+// import { BsGithub } from "react-icons/bs";
+
+import React from 'react';
+import { Card, Button } from 'react-bootstrap';
+import { BsGithub } from 'react-icons/bs';
+import { CgWebsite } from 'react-icons/cg';
+import '../../App.css'; // Ensure you import your CSS file
 
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '15px' }}>
+          <Card.Title>{props.title}</Card.Title>
+          <span className={`label ${props.label}`}>{props.label}</span>
+        </div>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
@@ -19,8 +28,6 @@ function ProjectCards(props) {
         </Button>
         {"\n"}
         {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
@@ -37,4 +44,6 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
+

@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-// import laptopImg from "../../Assets/about.gif";
+import laptopImg from "../../Assets/about.gif";
 import newImg from "../../Assets/awardpic.jpg";
 import Tilt from "react-parallax-tilt";
 
@@ -36,18 +36,22 @@ function About() {
           >
             <Tilt>
               <Container className="large-gif" alt="avatar" style = {{padding: 0}}>
-              <iframe  
-                src={aboutGIF}
+              <img  
+                src={laptopImg}
                 allow="autoplay" 
                 style={{ width: '100%', height: '200px' }} 
                 alt="A cool GIF"
                 title="A cool GIF">
-              </iframe>
+              </img>
               <img src={newImg} alt="new" className="img-fluid" />
               </Container>
             </Tilt>
           </Col>
         </Row>
+        <p style={{fontSize:"30px", color: "rgb(155 126 172)" }}>
+          "The only way to do great work is to love what you do."{" "}
+        </p>
+        <footer className="blockquote-footer" style={{fontSize:"20px", color: "rgb(155 126 172)" }}>Steve Jobs</footer>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>

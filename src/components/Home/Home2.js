@@ -38,6 +38,9 @@ function Home2() {
               <br />
               I enjoy full robotic system developement, including <b className="purple">power systems, communications, PCB design, 
               embedded software, sensors and control/search algorithms. </b>
+              <br />
+              <br />
+              Checkout the Projects Tab!
 
             </p>
           </Col>

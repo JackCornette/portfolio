@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.label.rover {
+  background-color: #ff5733; /* Example color for ROVER */
+  color: white;
+}
+
+.label.personal {
+  background-color: #33b5e5; /* Example color for PERSONAL */
+  color: white;
+}
+
+.label.arrc {
+  background-color: #9b59b6; /* Example color for ARRC */
+  color: white;
+}
+
+.label.school {
+  background-color: #4caf50; /* Example color for SCHOOL */
+  color: white;
+}

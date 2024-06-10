@@ -8,14 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">James (Jack) Cornette </span>
+            Hi everyone, my name is <span className="purple">James (Jack) Cornette </span>
             from <span className="purple"> Belton, Texas.</span>
             <br />
-            I have just completed a Non-Thesis Masters Degree in Computer Science at
-            the University of Oklahoma., where I also completed a BS in Computer 
-            Engineering with a minor in Computer Science. I am currently searching for a software
+            I have just completed a <span className="purple">Non-Thesis Masters Degree in Computer Science at
+            the University of Oklahoma</span>, where I also completed a <span className="purple">BS in Computer 
+            Engineering with a minor in Computer Science</span>. I am currently searching for a software
             engineering position that may include embedded development. I'm a hardworker and leader
-            by 
+            by nature; proof is in the <span className="purple">Projects tab!</span> My projects range from personal and school projects, 
+            to a deep dive into my designs and leadership on the Sooner Rover Team @ OU.
             
             <br />
             <br />
@@ -32,11 +33,6 @@ function AboutCard() {
               <ImPointRight /> Gaming With Friends
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-          "The only way to do great work is to love what you do."{" "}
-          </p>
-          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>

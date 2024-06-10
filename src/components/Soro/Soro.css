@@ -1,0 +1,67 @@
+.soro-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #a00202;
+    box-shadow: 0 0 10px rgba(253, 252, 252, 0.1);
+  }
+  
+  .soro-container h1, .soro-container h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .soro-container p, .soro-container ul {
+    text-align: justify;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-inline: 100px;
+  }
+  
+  .soro-container ul {
+    padding-left: 20px;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .documentation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .documentation a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .documentation a:hover {
+    background-color: #0056b3;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  

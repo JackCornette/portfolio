@@ -5,7 +5,6 @@ import './Contact.css';
 function Contact() {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     message: ''
   });
 
@@ -20,7 +19,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+    emailjs.send('service_wfac5jc', 'template_gaoqjnb', formData, 'IkwZD5iDEYXw3tsR9')
       .then((result) => {
         alert('Message sent successfully!');
       }, (error) => {
@@ -29,7 +28,6 @@ function Contact() {
 
     setFormData({
       name: '',
-      email: '',
       message: ''
     });
   };
@@ -37,6 +35,10 @@ function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
+        <p><strong>Email:</strong> jamescornette1@gmail.com     <strong>Phone:</strong> (254)-760-4483</p>
+      <p>Provide feedback, suggest new things to learn, offer a job.... 
+        write a joke, whatever you'd like! The message will be sent to me via 
+        email using emailjs :)</p>
       <form className="contact-form" onSubmit={handleSubmit}>
         <label>Name</label>
         <input 
@@ -44,15 +46,7 @@ function Contact() {
           name="name" 
           value={formData.name} 
           onChange={handleChange} 
-          required 
-        />
-        <label>Email</label>
-        <input 
-          type="email" 
-          name="email" 
-          value={formData.email} 
-          onChange={handleChange} 
-          required 
+          required
         />
         <label>Message</label>
         <textarea 

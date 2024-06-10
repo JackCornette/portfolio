@@ -15,9 +15,9 @@ function AboutCard() {
             the University of Oklahoma</span>, where I also completed a <span className="purple">BS in Computer 
             Engineering with a minor in Computer Science</span>. I am currently searching for a software
             engineering position that may include embedded development. I'm a hardworker and leader
-            by nature; proof is in the <span className="purple">Projects tab!</span> My projects range from personal and school projects, 
-            to a deep dive into my designs and leadership on the Sooner Rover Team @ OU.
-            
+            by nature; proof is in the <span className="purple">Projects tab!</span> Each project has some documentation
+            so feel free to browse! The <span className="purple">SoRo tab</span> is about a robotics team @ OU that I have
+            made large contributions to and is a big reason for my interest in robotics and space!
             <br />
             <br />
             Apart from coding/ problem solving, I love

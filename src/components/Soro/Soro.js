@@ -25,23 +25,13 @@ function Soro() {
         <li>Conducted extensive testing and troubleshooting to ensure the rover's systems were fully operational for competition.</li>
       </ul>
       
-      <h2>System Acceptance Review Videos</h2>
+      <h2>2024 System Acceptance Review for URC Finals</h2>
       <div className="video-container">
         <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/BwDTulsYFFI?si=LUFysP_Dm4fbpnjI" 
           title="System Acceptance Review Video 1" 
-          frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowFullScreen>
-        </iframe>
-        <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-          title="System Acceptance Review Video 2" 
-          frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowFullScreen>
         </iframe>

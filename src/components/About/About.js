@@ -39,7 +39,7 @@ function About() {
               <img  
                 src={laptopImg}
                 allow="autoplay" 
-                style={{ width: '100%', height: '200px' }} 
+                style={{ width: '100%', height: '100%' }} 
                 alt="A cool GIF"
                 title="A cool GIF">
               </img>

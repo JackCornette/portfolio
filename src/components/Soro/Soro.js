@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import './Soro.css';
 import soro from "../../Assets/Projects/soro.png";
 import remi from "../../Assets/soro_page/remi.png"; // Example image path
@@ -16,7 +16,7 @@ import pcb1 from "../../Assets/Projects/canpcb.png"; // Example image path
 import pcb2 from "../../Assets/soro_page/PCB.jpg";
 import pcb3 from "../../Assets/soro_page/pcb1.png";
 
-import troubleshooting from"../../Assets/soro_page/capstone.jpg"; // Example image path
+// import troubleshooting from"../../Assets/soro_page/capstone.jpg"; // Example image path
 
 import science from "../../Assets/soro_page/science.png";
 

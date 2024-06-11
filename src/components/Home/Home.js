@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import ProjectCard from "./../Projects/ProjectCards";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 import armIK from "../../Assets/Projects/armIK.gif";
 
 

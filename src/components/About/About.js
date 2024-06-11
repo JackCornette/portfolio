@@ -9,7 +9,7 @@ import newImg from "../../Assets/awardpic.jpg";
 import Tilt from "react-parallax-tilt";
 
 function About() {
-  const aboutGIF = "https://drive.google.com/file/d/1rB_h-4z08dbJBtAmFvhTn9jkK8_jS1e5/preview" 
+  // const aboutGIF = "https://drive.google.com/file/d/1rB_h-4z08dbJBtAmFvhTn9jkK8_jS1e5/preview" 
 
   return (
     <Container fluid className="about-section">

@@ -14,12 +14,9 @@ html {
   --imp-text-color: #c770f0;
 }
 
-/* Add this to your existing CSS file */
-
 .spotlight-section {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

@@ -84,7 +84,7 @@ function Projects() {
               imgPath={jetbot}
               isBlog={false}
               title="Jetbot Self-Driving"
-              description="In OU CS5013 Artificial Intelligence, a partner and I were givena  jetbot robot, comprised of a jetson nano, 2 wheels and an RGB camera. We were told to train some publicly available CNN to teach the jetbot to self drive. As an additional facet to the project, my team trained and tested 5 different python pytorch models (resnet, squeezenet, mobilenet, alexnet, googlenet) to empirically determine the best model."
+              description="In OU CS5013 Artificial Intelligence, a partner and I were given a jetbot robot, comprised of a jetson nano, 2 wheels and an RGB camera. We were told to train some publicly available CNN to teach the jetbot to self drive. As an additional facet to the project, my team trained and tested 5 different python pytorch models (resnet, squeezenet, mobilenet, alexnet, googlenet) to empirically determine the best model."
               ghLink="https://github.com/JackCornette/AI_jetbot"
               demoLink="https://drive.google.com/file/d/1BIyWKXctlbVZmcZDrrJ0gCPBgANcIu0u/view?usp=sharing"
               label="school"
@@ -96,7 +96,7 @@ function Projects() {
               imgPath={sandbox}
               isBlog={false}
               title="Sandbox Automata"
-              description="In OU CS5053 Computer Graphics, this project was semester long with the only guide being to 'develop an interesting graphics project'. My team chose java LWJGL as the engine since we learned Java OpenGL in class. The result is a sandbox drawing/physics/simulaation environment. 2 Cellular Automata algorithms can be simulated, images are outlined using openCV edge detection for drawing, and sand/water pixels can be simualted."
+              description="In OU CS5053 Computer Graphics, this project was a semester long with the only guide being to 'develop an interesting graphics project/'. My team chose java LWJGL as the engine since we learned Java OpenGL in class. The result is a sandbox drawing/physics/simulaation environment. Two Cellular Automata algorithms can be simulated, images are outlined using openCV edge detection for drawing, and sand/water pixels can be simualted."
               ghLink="https://github.com/JackCornette/SandboxAutomata"
               demoLink="https://drive.google.com/file/d/1LGPuPAoetrvtHmQnxvMUZhiDebtl-fvU/view?usp=drive_link"
               extraLink="https://drive.google.com/file/d/1PCewCslbNrPVNawx408BcASq65amJ2ZO/view?usp=drive_link"
@@ -109,7 +109,7 @@ function Projects() {
               imgPath={science}
               isBlog={false}
               title="SoRo Science Package"
-              description="The 2024 SoRo Science Package consisted of a temperature, humidity and methane sensor, 3 servos, 2 actuators, a drill, 3 cameras and a GPS. I designed and wired the electrical and software system, which included the CAN-Bus & UDP send/receive, motor control, and more. I designed the UI to include the Rovers GPS/bearing and the current sensor readings. I also implemented a live graph that would plot the last 20s of sensor data. This package scored 75/100 in the URC science mission."
+              description="The 2024 SoRo Science Package consisted of a temperature, humidity and methane sensor, 3 servos, 2 actuators, a drill, 3 cameras and a GPS. I designed and wired the electrical and software system, which included the CAN-Bus & UDP send/receive, motor control, and more. I designed the UI to include the Rovers GPS/bearing and the current sensor readings. I also implemented a live graph that would plot the last 20 seconds of sensor data. This package scored 75/100 in the URC science mission."
               ghLink="https://github.com/Sooner-Rover-Team/Drive"
               label="rover"
             />
@@ -120,7 +120,7 @@ function Projects() {
               imgPath={wiitar}
               isBlog={false}
               title="Rover Wii-Guitar Controller"
-              description="I made this project for fun because I found a software called WiitarThing that lets you bluetooth conenct a Wii-mote to a computer. I simply read the bluetooth msg and figured out the code for each button, then wrote a python script that converts it to rover control data. In operation, the faster the user strums, the faster the rover moves, and actions like forward/turn/pivot/reverse are all multi-button commands to mimmic music chords. It really looks like someones playing Guitar Hero while trying to drive it."
+              description="I made this project for fun because I found a software called WiitarThing that lets you bluetooth connect a Wii-mote to a computer. I simply read the bluetooth message and figured out the code for each button, then wrote a python script that converts it to rover control data. In operation, the faster the user strums, the faster the rover moves, and actions like forward/turn/pivot/reverse are all multi-button commands to mimic music chords. It really looks like someone's playing Guitar Hero while trying to drive it."
               ghLink="https://github.com/JackCornette/rover-guitar/tree/main"
               demoLink="https://drive.google.com/file/d/1mpAD5a6ySgwo3Oujrw7OEN_iQe8CpLAK/view?usp=drive_link"
               label="personal"
@@ -157,7 +157,7 @@ function Projects() {
               imgPath={armIK}
               isBlog={false}
               title="Robot Arm Inverse-Kinematics"
-              description="The SoRo Arm was my capstone project along side 4 Mechanical Engineers. I developed the Arm UI that visualizes an Inverse Kinematics algorithm I wrote to manipulate the arm with one joystick. The physical and 2D model arm are in sync, so as an operator moves the end-effector claw in the UI, the physical arm mimmics the position. I also selected motors and electronics and wired everything together. Two Teensy 4.1 read encoder data and communicate over CAN/UDP to mission control, while also computing IK and PID controll algorithms. These algorithms allowed us to type full words on a keyboard with the arm while in mission control half a km away."
+              description="The SoRo Arm was my capstone project along side 4 Mechanical Engineers. I developed the Arm UI that visualizes an Inverse Kinematics algorithm I wrote to manipulate the arm with one joystick. The physical and 2D model arm are in sync, so as an operator moves the end-effector claw in the UI, the physical arm mimics the position. I also selected motors and electronics and wired everything together. Two Teensy 4.1 read encoder data and communicate over CAN/UDP to mission control, while also computing IK and PID control algorithms. These algorithms allowed the Sooner Rover team to type full words on a keyboard with the arm while in mission control half a km away."
               ghLink="https://github.com/Sooner-Rover-Team/Drive/blob/main/util.py"
               demoLink="https://youtu.be/BwDTulsYFFI?si=mtY5rsTLCCof5qns"
               extraLink="https://drive.google.com/file/d/1S3ogfJAVzW3zVlUdVO7R5J-Mx_BhVt87/view?usp=drive_link"
@@ -170,7 +170,7 @@ function Projects() {
               imgPath={pid}
               isBlog={false}
               title="Multiple PID Control Implementations"
-              description="I have developed test and improved multiple PID algorithms on the rover that allow it to operate more smoothley. I have written my own PID algorithms for the wheel speed control, arm position stabilization, and on other moving rover parts on various science package's. I have also tested and improved autonomous GPS navigation PID algorithms through refinement of the P/I/D coeeficients. I'm knowledgeable in the 3 components of PID and their use-cases and am familiar with the idea that half the work is finding the right coefficients."
+              description="I have developed, tested and improved multiple PID algorithms on the rover that allow it to operate more smoothly. I have written my own PID algorithms for the wheel speed control, arm position stabilization, and on other moving rover parts on various science packages. I have also tested and improved autonomous GPS navigation PID algorithms through refinement of the P/I/D coefficients. I'm knowledgeable in the 3 components of PID and their use-cases and am familiar with the idea that half the work is finding the right coefficients."
               ghLink="https://github.com/Sooner-Rover-Team/Microcontrollers/tree/main/Teensy%204.1/teensyEBOX/TeensyEbox"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
               label="rover"
@@ -195,7 +195,7 @@ function Projects() {
               imgPath={adsb}
               isBlog={false}
               title="ADS-B Real-Time Plane Tracker"
-              description="Radar Engineers @ the ARRC tested Radars on OU planes and needed a way to track them in real time. Online plane trackers have large delay. Using a Hack-RF One Software Defined Radio and GNU Radio, I was able to intercept and decode plane data. I then created a UI to display the plane information such as GPS, Bearing, Altitude, Callsign, and Speed. The UI also had a Google Map display that would show the planes on the map. This tool helped Radar Engineers know when a plane is about to fly into view much quicker than online sources. I completed this project as a Sophomore and taught myself Python and multithreading for this project. I am unfortunately unable to share the code."
+              description="Radar Engineers @ the ARRC tested Radars on OU planes and needed a way to track them in real time. Online plane trackers have a large delay. Using a Hack-RF One Software Defined Radio and GNU Radio, I was able to intercept and decode plane data. I then created a UI to display the plane information such as GPS, Bearing, Altitude, Callsign, and Speed. The UI also has a Google Map display that would show the planes on the map. This tool helped Radar Engineers know when a plane is about to fly into view much quicker than online sources. I completed this project as a Sophomore and taught myself Python and multithreading for this project. I am unfortunately unable to share the code."
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
               label="arrc"
@@ -207,7 +207,7 @@ function Projects() {
               imgPath={cuda}
               isBlog={false}
               title="CUDA Signal Processing Speed-up"
-              description="As Undergraduate Research Assistant @ the ARRC @ OU, I assisted a PhD student in a project involving Range-Doppler Maps for object detection/tracking. To make the pipeline run in real time, the signal processing needed to be parallelized on a GPU. We experimented with ArrayFire and ultimately implemented Fast-Fourier Transforms in CUDA. This implementation allowed the PhD student to finally present his work infront of sponsors. I am unfortunately unable to share the code. I have also completed a PDN Programming course @ OU that dived into CUDA, so I consider myself fairly knowledgable about CUDA/parallel programming."
+              description="As an Undergraduate Research Assistant @ the ARRC @ OU, I assisted a PhD student in a project involving Range-Doppler Maps for object detection/tracking. To make the pipeline run in real time, the signal processing needed to be parallelized on a GPU. We experimented with ArrayFire and ultimately implemented Fast-Fourier Transforms in CUDA. This implementation allowed the PhD student to finally present his work infront of sponsors. I am unfortunately unable to share the code. I have also completed a PDN Programming course @ OU that dived into CUDA, so I consider myself fairly knowledegable about CUDA/parallel programming."
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
               label="arrc"
@@ -219,7 +219,7 @@ function Projects() {
               imgPath={elab}
               isBlog={false}
               title="1st place No-Software Robot Challenge"
-              description="In Electronics Lab @ OU, we were tasked to design a line follower robot that, after following the line, needs to turn around and hit the door either via projectile or driving to it. This robot had to be made entirely of hardware componnents. My robot used 555 timers, Infrared sensors, Switches/Latches, regulators, a PWM generator, and more. My robot was one of the fastets to follow the line and, due to a nerf gun powered by a servo, I was able to shoot the door, scoring me 1st place out of 60 with the fastest time to completion."
+              description="In Electronics Lab @ OU, we were tasked to design a line follower robot that, after following the line, it needs to turn around and hit the door either via projectile or driving to it. This robot had to be made entirely of hardware componnents. My robot used 555 timers, Infrared sensors, Switches, comparators, op-amps, regulators, a PWM generator, and more. My robot was one of the fastest to follow the line and, due to a nerf gun powered by a servo, I was able to shoot the door, scoring 1st place out of 60 with the fastest time to completion."
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               demoLink="https://youtube.com/shorts/Li4QUEQT_Mc?si=w469Obk4a3adHOES"      
               label="school"

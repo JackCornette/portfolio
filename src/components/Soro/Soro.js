@@ -36,10 +36,22 @@ function Soro() {
         Welcome to the Sooner Rover Team page! Our team, composed of 55 engineers from mechancial, electrical, software and geology backgrounds, designs and builds a fully operational rover to compete in the University Rover Challenge (URC).
          Each year we embark on a 8 day trip to Hanksville Utah to compete in desert terrain that mimmics the Martian landscape. The URC is the most competitive university rover competition in the world with 100 teams around the world applying each year.
          The Sooner Rover Team is not the wealthiest but placing 18th, 12th and 7th the past 3 years is a testiment to our team's hardwork, practice and smooth control system.
-         As the <strong>Captain and Electrical Lead</strong>, I've had the privilege to significantly contribute to the team's success and growth over the past years.
+         As the <strong>Captain and Electrical Lead</strong>, I've had the privilege to significantly contribute to the team's success and growth over the past years. Below is the 2024 System Acceptance Review (SAR) that got our team into the finals. It is our highest scoring
+         SAR to date (94/100 and 3rd highest out of 100+ teams). I am the first speaker!
       </p>
 
-      <img src={remi} alt="Remi" style={{marginTop:"20px", width:"50%", borderRadius: "5px"}}/>
+      <h2><strong>2024 System Acceptance Review for entry to URC Finals</strong></h2>
+      <div className="video-container">
+        <div className="video-responsive">
+          <iframe 
+            src="https://www.youtube.com/embed/BwDTulsYFFI?si=neOzcm36FPM4Fweu" 
+            title="System Acceptance Review Video 1" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+          </iframe>
+        </div>
+      </div>
       
       <h2><strong>My Role and Contributions</strong></h2>
 
@@ -68,7 +80,7 @@ function Soro() {
       <h2><strong>Technical Contributions:</strong></h2>
       
       <div className="contribution-section">
-        <h5>Training and Documentation:</h5>
+        <h5><strong>Training and Documentation:</strong></h5>
         <div className="contribution-content">
           <ul>
             <li><strong>Training Sessions:</strong> Developed and conducted training sessions for new members, teaching them essential skills in electronics, PCB design, and troubleshooting.</li>
@@ -90,7 +102,7 @@ function Soro() {
       </div>
 
       <div className="contribution-section">
-        <h5>Electrical Systems and Repairs:</h5>
+        <h5><strong>Electrical Systems and Repairs:</strong></h5>
         <div className="contribution-content">
           <ul>
             <li><strong>Rover Repairs:</strong> Conducted dozens of hours of electrical repairs, utilizing skills such as soldering, crimping, and other electrical techniques.</li>
@@ -101,7 +113,7 @@ function Soro() {
       </div>
 
       <div className="contribution-section">
-        <h5>PCB and Hardware Design:</h5>
+        <h5><strong>PCB and Hardware Design:</strong></h5>
         <div className="contribution-content">
           <ul>
             <li><strong>PCB Design:</strong> Designed multiple PCBs for various purposes, including LiPo voltage monitoring, CAN-Bus communications, and microcontroller/sensor mounts.</li>
@@ -123,7 +135,7 @@ function Soro() {
       </div>
 
       <div className="contribution-section">
-        <h5>Communication Systems:</h5>
+        <h5><strong>Communication Systems:</strong></h5>
         <ul>
           <li><strong>CAN-Bus System:</strong> Implemented the rover's CAN-Bus system to efficiently send messages across the rover, including sensor data and motor control signals. This CAN-Bus has been working
           for 2 years now and is slowly increasing in use. I designed the hardware/PCB and software on Teensy 4.1 microcontrollers.</li>
@@ -133,7 +145,7 @@ function Soro() {
       </div>
 
       <div className="contribution-section">
-        <h5>Mission Control Interface:</h5>
+        <h5><strong>Mission Control Interface:</strong></h5>
         <ul>
           <li><strong>User Interface:</strong> Developed a user interface for mission control to visualize rover inputs and sensor data including GPS, bearing, temperature, humidity, and methane levels.</li>
           <li><strong>Real-Time Data Graphing:</strong> Implemented a live graph to plot sensor data over time, aiding in real-time monitoring and decision-making.</li>
@@ -145,7 +157,7 @@ function Soro() {
 
       <div className="contribution-section">
         <br></br>
-        <h5>Capstone Project - Robot Arm:</h5>
+        <h5><strong>Capstone Project - Robot Arm:</strong></h5>
         <ul>
           <li><strong>Inverse Kinematics:</strong> Developed inverse kinematics for the robot arm, ensuring precise and accurate movement.</li>
           <li><strong>CAN-Bus and PID Algorithms:</strong> Designed CAN-Bus communication and PID control algorithms for smooth and efficient operation.</li>
@@ -164,22 +176,11 @@ function Soro() {
         </Row>
       </div>
 
-      <h2><strong>2024 System Acceptance Review for entry to URC Finals</strong></h2>
-      <div className="video-container">
-        <div className="video-responsive">
-          <iframe 
-            src="https://www.youtube.com/embed/BwDTulsYFFI?si=neOzcm36FPM4Fweu" 
-            title="System Acceptance Review Video 1" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen>
-          </iframe>
-        </div>
-      </div>
+      <img src={remi} alt="Remi" style={{marginTop:"20px", width:"50%", borderRadius: "5px"}}/>
 
-      <h2>Conclusion</h2>
+      <h2><strong>Conclusion</strong></h2>
       <p>
-        The Sooner Rover Team has been an integral part of my academic and professional journey. Through relentless effort and dedication, I have contributed to the team's technical advancements and overall success. The skills and experiences gained have not only shaped my career but have also set a strong foundation for the team's future endeavors.
+        The Sooner Rover Team has been an integral part of my academic journey. Through relentless effort and dedication, I have contributed to the team's technical advancements and overall success. The skills and experiences gained have not only shaped my career but have also set a strong foundation for the team's future endeavors.
       </p>
       <p>
         If you would like to learn more or have any questions, feel free to reach out via the contact form on my website. Thank you for visiting the Sooner Rover Team page!

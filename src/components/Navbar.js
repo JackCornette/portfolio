@@ -40,7 +40,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex" style={{ marginLeft: '-50px' }}>
+        <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid" alt="brand" style={{ height: '40px' }}/>
         </Navbar.Brand>
         <Navbar.Toggle

@@ -6,9 +6,10 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import ProjectCard from "./../Projects/ProjectCards";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import armIK from "../../Assets/Projects/armIK.gif";
+
 
 function Home() {
-  // const homeGIF = "https://drive.google.com/file/d/1nA0LB6dV9UCA368DwFCHolQkxrWJIvG7/preview"
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -33,20 +34,24 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={7} style={{ paddingBottom: 5 }}>
-            <img src={homeLogo} allow="autoplay" title="A cool GIF" className="img-fluid large-gif"></img>
+            <Col md={7} style={{ paddingBottom: 20 }}>
+              <img src={homeLogo} className="img-fluid large-gif" alt="home gif" />
             </Col>
           </Row>
-          <Row>
-            Project Highlight
-            <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
+          <Row className="spotlight-section">
+            <Col md={12}>
+              <h2 className="main-name" style={{textAlign: "center", padding: 0, marginTop: "10%", fontSize: 50}}>Project Spotlight</h2>
+            </Col>
+            <Col md={10} className="project-card">
+            <ProjectCard style={{width: "90%"}}
+              imgPath={armIK}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Robot Arm Inverse-Kinematics"
+              description="The SoRo Arm was my capstone project along side 4 Mechanical Engineers. I developed the Arm UI that visualizes an Inverse Kinematics algorithm I wrote to manipulate the arm with one joystick. The physical and 2D model arm are in sync, so as an operator moves the end-effector claw in the UI, the physical arm mimmics the position. I also selected motors and electronics and wired everything together. Two Teensy 4.1 read encoder data and communicate over CAN/UDP to mission control, while also computing IK and PID controll algorithms. These algorithms allowed us to type full words on a keyboard with the arm while in mission control half a km away."
+              ghLink="https://github.com/Sooner-Rover-Team/Drive/blob/main/util.py"
+              demoLink="https://youtu.be/BwDTulsYFFI?si=mtY5rsTLCCof5qns"
+              extraLink="https://drive.google.com/file/d/1S3ogfJAVzW3zVlUdVO7R5J-Mx_BhVt87/view?usp=drive_link"
+              label="rover"
             />
           </Col>
           </Row>

@@ -38,12 +38,15 @@ function Home() {
               <img src={homeLogo} className="img-fluid large-gif" alt="home gif" />
             </Col>
           </Row>
-          <Row className="spotlight-section">
-            <Col md={12}>
-              <h2 className="main-name" style={{textAlign: "center", padding: 0, marginTop: "2%", fontSize: 50}}><strong>Project Spotlight</strong></h2>
-            </Col>
-            <Col md={10} className="project-card">
-            <ProjectCard style={{width: "90%"}}
+        </Container>
+      </Container>
+
+      <Row className="project-section" style={{ display: 'flex', justifyContent: 'center' }}>
+          <Col md={12}>
+            <h2 className="main-name" style={{textAlign: "center", paddingBottom: "10px", fontSize: 50}}><strong>Project Spotlight</strong></h2>
+          </Col>
+          <Col md={8} classNmae="project-content" style = {{paddingBottom: "30px"}}>
+            <ProjectCard  className="project-card" style={{width: "90%"}}
               imgPath={armIK}
               isBlog={false}
               title="Robot Arm Inverse-Kinematics"
@@ -54,9 +57,8 @@ function Home() {
               label="rover"
             />
           </Col>
-          </Row>
-        </Container>
-      </Container>
+        </Row>
+
       <Home2 />
     </section>
   );

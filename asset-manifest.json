@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.093a8566.css",
-    "main.js": "/portfolio/static/js/main.7a90ff1e.js",
+    "main.js": "/portfolio/static/js/main.003322e5.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/home.gif": "/portfolio/static/media/home.4843e7f26969e8181dd5.gif",
@@ -30,6 +30,7 @@
     "static/media/pcb1.png": "/portfolio/static/media/pcb1.36bd4304564e8732002d.png",
     "static/media/awardpic.jpg": "/portfolio/static/media/awardpic.42ea08b13d4f27dd6d2a.jpg",
     "static/media/captain.JPG": "/portfolio/static/media/captain.737584e4a2dc7f332715.JPG",
+    "static/media/lipomonitor.PNG": "/portfolio/static/media/lipomonitor.8b2fddf0b108ff54e9bf.PNG",
     "static/media/cuda.jpg": "/portfolio/static/media/cuda.a759d5cbc9d5f3629fe0.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.85f2723532070b6437f8.png",
     "static/media/crover.jpg": "/portfolio/static/media/crover.a2be2861ccafc3f0d699.jpg",
@@ -40,12 +41,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.093a8566.css.map": "/portfolio/static/css/main.093a8566.css.map",
-    "main.7a90ff1e.js.map": "/portfolio/static/js/main.7a90ff1e.js.map",
+    "main.003322e5.js.map": "/portfolio/static/js/main.003322e5.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.093a8566.css",
-    "static/js/main.7a90ff1e.js"
+    "static/js/main.003322e5.js"
   ]
 }

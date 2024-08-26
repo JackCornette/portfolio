@@ -5,6 +5,7 @@ import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
+import lipomonitor from "../../Assets/Projects/lipomonitor.PNG";
 import crover from "../../Assets/Projects/crover.jpg";
 import jetbot from "../../Assets/Projects/jetbot.gif";
 // import captain from "../../Assets/Projects/captain.JPG";
@@ -20,6 +21,7 @@ import turtlebot from "../../Assets/Projects/turtlebot.gif";
 import armIK from "../../Assets/Projects/armIK.gif";
 import elab from "../../Assets/Projects/elab.gif";
 
+
 /*
 * Projects:
 PERSONAL
@@ -33,6 +35,7 @@ SCHOOL
 - 
 ROVER
 - CAN-Bus PCB/ Teensy 4.1 upgrade 3
+- lipo battery monitor 1
 - Manual operate UI Design 3
 - Arm Inverse Kinematics 3
 - PID control 3
@@ -55,6 +58,17 @@ function Projects() {
         <span className="purple"> PERSONAL, SCHOOL, ROVER and ARRC </span> based on what the project was for.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lipomonitor}
+              isBlog={false}
+              title="Lipo-Monitor w/ CAN-Bus"
+              description="The Sooner Rover Team uses Li-Po batteries which require monitoring to prevent damages. This PCB design hosts a Hall-Effect current sensor up to 35 Amps, pin connectors for up to 6 Li-Po cell Voltage monitoring. There is an ADC IC to read the voltages, a SEEED Studio XIAO microcontroller for its minimal size, and a SPI-CAN tranceiver circuit to easily integrate the PCB into the Rover CAN-Bus. The PCB also includes status LEDs, and LCD display to show voltage and current output, and a piezo buzzer to alert when the voltage is too low."
+              ghLink="https://github.com/JackCornette/Li-Po_Monitor"
+              label="rover"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crover}
